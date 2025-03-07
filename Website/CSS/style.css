@@ -38,9 +38,20 @@ img{
   max-width: 100%;
   height: auto;
 }
+
+.btn-light{
+  background-color: var(--c-background);
+}
 /*-------------------------------
 button css setup
 -------------------------------*/
+.btn{
+  font-weight: 600 !important;
+
+}
+.btn-primary{
+  background-color: var(--c-primary) !important;
+}
 
 /*-------------------------------
 Navbar css setup
@@ -52,7 +63,7 @@ Navbar css setup
 }
 
 .bg-dark{
-  border-color: var(--c-black);
+  background-color: var(--c-black);
 }
 
 
@@ -60,3 +71,13 @@ Navbar css setup
 /*-------------------------------
 Hero css setup
 -------------------------------*/
+#Hero{
+  background: url(../img/home/Hero-img.jpg);
+  background-position: top;
+  margin-top: -100px;
+}
+
+.herotext{
+  font-size: 100px;
+
+}
