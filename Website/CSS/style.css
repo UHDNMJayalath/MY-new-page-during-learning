@@ -19,6 +19,11 @@ h1.h2,h3,h4,h5,h6{
   font-weight: 600;
 }
 
+p{
+  font-family: var(--font-base);
+  font-style: 60px;
+}
+
 a{
   text-decoration: none;
   color: var(--c-primary);
@@ -53,6 +58,9 @@ button css setup
   background-color: var(--c-primary) !important;
 }
 
+.btn-primary:hover{
+  background-color: var(--c-secondary) !important;
+}
 /*-------------------------------
 Navbar css setup
 -------------------------------*/
@@ -75,9 +83,55 @@ Hero css setup
   background: url(../img/home/Hero-img.jpg);
   background-position: top;
   margin-top: -100px;
+  background-size: cover;
+  
 }
 
 .herotext{
   font-size: 100px;
 
+}
+
+/*-------------------------------
+About Us setup
+-------------------------------*/
+
+.brand-title{
+  font-size: 65px;
+  font-weight: 750;
+  font-family: var(--font-base);
+}
+
+.brand-p{
+  font-size: 25px;
+  font-weight: 400;
+  font-family: var(--font-base);
+
+}
+
+.brand-title-light{
+  font-size: 55px;
+  font-weight: 650;
+  font-family:var(--font-base);
+  color: var(--c-background);
+}
+
+.brand-p-2{
+  font-style: 22px;
+  font-family:var(--font-base);
+}
+
+
+/*-------------------------------
+Icon box setup
+-------------------------------*/
+
+.iconbox{
+  background: var(--c-background);
+  color: var(--c-primary);
+  width: 70px;
+  height: 65px;
+  align-items: center;
+  font-size: 35px;
+  flex: none;
 }
